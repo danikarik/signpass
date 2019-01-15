@@ -1,5 +1,9 @@
 package main
 
-func main() {
+import (
+	"github.com/danikarik/signpass/cmd"
+)
 
+func main() {
+	cmd.Execute()
 }
